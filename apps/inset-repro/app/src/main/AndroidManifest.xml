@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="Inset repro" android:icon="@mipmap/ic_inset">
+        <activity android:name=".MainActivity" android:exported="true" android:label="Inset 16.7%" android:icon="@mipmap/ic_inset">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
+        <activity-alias android:name=".Exact" android:targetActivity=".MainActivity" android:exported="true" android:label="Inset 1/6" android:icon="@mipmap/ic_inset_exact">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity-alias>
+        <activity-alias android:name=".FullBleed" android:targetActivity=".MainActivity" android:exported="true" android:label="Full bleed" android:icon="@mipmap/ic_fullbleed">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity-alias>
+    </application>
+</manifest>

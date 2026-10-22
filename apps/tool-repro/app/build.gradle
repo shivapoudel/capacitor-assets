@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'dev.repro.insetgap'
+    compileSdk 36
+    defaultConfig { applicationId 'dev.repro.toolgap'; minSdk 26; targetSdk 36; versionCode 1; versionName '1' }
+}

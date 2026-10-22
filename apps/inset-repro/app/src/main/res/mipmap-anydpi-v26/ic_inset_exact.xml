@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- What @capawesome/capacitor-assets 5.0.0 (and @capacitor/assets 3.x) writes, inset 16.6667% -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background>
+        <inset android:drawable="@mipmap/layer_background" android:inset="16.6667%" />
+    </background>
+    <foreground>
+        <inset android:drawable="@mipmap/layer_foreground" android:inset="16.6667%" />
+    </foreground>
+</adaptive-icon>

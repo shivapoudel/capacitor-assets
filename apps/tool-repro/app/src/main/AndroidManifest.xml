@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="Tool repro" android:icon="@mipmap/gen_old">
+        <activity android:name=".MainActivity" android:exported="true" android:label="5.0.0" android:icon="@mipmap/gen_old">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
+        <activity-alias android:name=".New" android:targetActivity=".MainActivity" android:exported="true" android:label="This PR" android:icon="@mipmap/gen_new">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity-alias>
+    </application>
+</manifest>
